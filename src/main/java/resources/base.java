@@ -7,6 +7,8 @@ import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -22,10 +24,20 @@ public class base {
 				System.getProperty("user.dir") + "\\src\\main\\java\\resources\\data.properties");
 		prop = new Properties();
 		prop.load(fis);
-		String browsername = prop.getProperty("browser");
+		String browsername = prop.getProperty("browsere");
 		if (browsername.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver(); // Assign to class member
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+			driver.get("https://buildcon.shaligraminfotech.com:7002/#/login");
+		} else if (browsername.equals("firefox")) {
+			driver = new FirefoxDriver();
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+			driver.get("https://buildcon.shaligraminfotech.com:7002/#/login");
+		} else if (browsername.equals("edge")) {
+			driver = new EdgeDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			driver.get("https://buildcon.shaligraminfotech.com:7002/#/login");

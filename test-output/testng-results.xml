@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-26T02:25:12 IST" name="Default suite" finished-at="2025-03-26T02:26:07 IST" duration-ms="55505">
+  <suite started-at="2025-04-06T01:44:26 IST" name="Default suite" finished-at="2025-04-06T01:44:57 IST" duration-ms="31737">
     <groups>
     </groups>
-    <test started-at="2025-03-26T02:25:12 IST" name="Default test" finished-at="2025-03-26T02:26:07 IST" duration-ms="55505">
+    <test started-at="2025-04-06T01:44:26 IST" name="Default test" finished-at="2025-04-06T01:44:57 IST" duration-ms="31737">
       <class name="testcases.LoingTest">
-        <test-method is-config="true" signature="initilation()[pri:0, instance:testcases.LoingTest@13b6aecc]" started-at="2025-03-26T02:25:12 IST" name="initilation" finished-at="2025-03-26T02:25:57 IST" duration-ms="45758" status="PASS">
+        <test-method is-config="true" signature="initilation()[pri:0, instance:testcases.LoingTest@13b6aecc]" started-at="2025-04-06T01:44:26 IST" name="initilation" finished-at="2025-04-06T01:44:38 IST" duration-ms="12757" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilation -->
-        <test-method signature="Invalidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoingTest@13b6aecc]" started-at="2025-03-26T02:25:57 IST" name="Invalidlogin" data-provider="Invalidlogindata" finished-at="2025-03-26T02:26:00 IST" duration-ms="2732" status="PASS">
+        <test-method signature="Invalidlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoingTest@13b6aecc]" started-at="2025-04-06T01:44:38 IST" name="Invalidlogin" data-provider="Invalidlogindata" finished-at="2025-04-06T01:44:43 IST" duration-ms="4176" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,15 +32,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Invalidlogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.LoingTest@13b6aecc]" started-at="2025-03-26T02:26:00 IST" name="teardown" finished-at="2025-03-26T02:26:01 IST" duration-ms="284" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.LoingTest@13b6aecc]" started-at="2025-04-06T01:44:43 IST" name="teardown" finished-at="2025-04-06T01:44:43 IST" duration-ms="527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="initilation()[pri:0, instance:testcases.LoingTest@13b6aecc]" started-at="2025-03-26T02:26:01 IST" name="initilation" finished-at="2025-03-26T02:26:06 IST" duration-ms="5252" status="PASS">
+        <test-method is-config="true" signature="initilation()[pri:0, instance:testcases.LoingTest@13b6aecc]" started-at="2025-04-06T01:44:43 IST" name="initilation" finished-at="2025-04-06T01:44:55 IST" duration-ms="12209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilation -->
-        <test-method signature="Validlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoingTest@13b6aecc]" started-at="2025-03-26T02:26:06 IST" name="Validlogin" data-provider="Validlogindata" finished-at="2025-03-26T02:26:07 IST" duration-ms="1048" status="PASS">
+        <test-method signature="Validlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoingTest@13b6aecc]" started-at="2025-04-06T01:44:55 IST" name="Validlogin" data-provider="Validlogindata" finished-at="2025-04-06T01:44:57 IST" duration-ms="1364" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,7 +61,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validlogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.LoingTest@13b6aecc]" started-at="2025-03-26T02:26:07 IST" name="teardown" finished-at="2025-03-26T02:26:07 IST" duration-ms="280" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.LoingTest@13b6aecc]" started-at="2025-04-06T01:44:57 IST" name="teardown" finished-at="2025-04-06T01:44:57 IST" duration-ms="569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
